@@ -2566,6 +2566,7 @@ Detected.prototype = {
     },
 
     detect: function (ua) {
+        var match;
 
         /****************************************************
          *      Unix
