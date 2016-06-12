@@ -1,6 +1,6 @@
 {
   "name": "blear.core.ua",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "浏览器 UA 分析",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
