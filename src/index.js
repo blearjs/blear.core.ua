@@ -1,6 +1,5 @@
 /**
  * core ua
- * @link https://github.com/fex-team/ua-device/blob/master/lib/ua-device.js
  * @author ydr.me
  * @create 2016-04-09 15:53
  */
@@ -9,7 +8,7 @@
 
 'use strict';
 
-var uaTest = require('./_ua-test.js');
+var uaParse = require('blear.utils.ua');
 
 
 /**
@@ -49,5 +48,5 @@ var uaTest = require('./_ua-test.js');
  * ```
  */
 module.exports = function (ua) {
-   return uaTest(ua || window.navigator.userAgent);
+   return uaParse(ua || window.navigator.userAgent);
 };

@@ -1,6 +1,6 @@
 {
   "name": "blear.core.ua",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "浏览器 UA 分析",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
@@ -37,7 +37,9 @@
     "url": "https://github.com/blearjs/blear.core.ua/issues"
   },
   "dependencies": {},
-  "peerDependencies": {},
+  "peerDependencies": {
+    "blear.utils.ua": "1.x"
+  },
   "devDependencies": {
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
